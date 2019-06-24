@@ -76,6 +76,7 @@ export default{
       return this.categorias.length
     }
   },
+  middleware: "authenticated",
   methods: {
     eliminarCategorias(id, index){
       //alert('ides: '+id)

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nuxt",
-    "generate":"nuxt generate",
+    "generate": "nuxt generate",
     "deploy": "npm run generate && firebase deploy"
   },
   "author": "Stalin Solarte",
@@ -13,8 +13,10 @@
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.15",
     "firebase": "^5.9.2",
-    "nuxt": "^2.4.5",
-    "vue-spinner": "^1.0.3"
+    "nuxt": "^2.8.1",
+    "vue-spinner": "^1.0.3",
+    "cookieparser": "^0.1.0",
+    "js-cookie": "^2.2.0"
   },
   "devDependencies": {
     "core-js": "^2.6.5"
